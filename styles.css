@@ -7,6 +7,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+
+}
+* {
+  text-decoration: none;
+  list-style: none;
 }
 canvas {
   position: absolute;
@@ -21,6 +26,11 @@ canvas {
   word-spacing: 12px;
   text-transform: uppercase;
   color:rgb(238, 238, 238);
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 .button-wrapper {
   display: flex;
@@ -41,4 +51,11 @@ canvas {
   border: 1px solid white;
   background: black;
   cursor: pointer;
+  color: aliceblue;
+}
+.full-stack {
+  font-size: 20px;
+  letter-spacing: 1px;
+  text-align: center;
+
 }
